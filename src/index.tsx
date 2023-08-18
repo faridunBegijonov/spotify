@@ -3,7 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./app/styles/index.css";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { RouterProvider } from "react-router-dom";
-import { router } from "./app/index";
+import { router, theme } from "./app/index";
+import { ThemeProvider } from "@mui/material";
 
 const queryClient = new QueryClient();
 
@@ -12,8 +13,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-    </QueryClientProvider>
+    <ThemeProvider theme={theme}>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      </QueryClientProvider>
+    </ThemeProvider>
   </React.StrictMode>,
 );

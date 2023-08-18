@@ -13,3 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Montserrat', sans-serif;
 }
+
+body {
+  background-color:  #121212FF;
+  color: #fff;
+}
+
+.active {
+  font-weight: bold;
+}

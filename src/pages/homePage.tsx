@@ -1,5 +1,6 @@
 import React, { FC } from "react";
+import { Layout } from "../app";
 
 export const HomePage: FC = () => {
-  return <h1>Hello</h1>;
+  return <Layout>Test</Layout>;
 };
