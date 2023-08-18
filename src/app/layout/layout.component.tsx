@@ -1,15 +1,18 @@
 import React, { FC, ReactNode } from "react";
 import { Sidebar } from "../../widgets";
 
-export const Layout: FC<{ children: ReactNode }> = ({
+type LayoutType = { children: ReactNode; isPadding?: boolean };
+
+export const Layout: FC<LayoutType> = ({
   children,
-}: {
-  children: ReactNode;
-}) => {
+  isPadding = true,
+}: LayoutType) => {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="md:w-full pl-[32%] w-full p-8">{children}</main>
+      <main className={`${isPadding ? "pl-[32%] p-8" : "pl-[30%]"} w-full`}>
+        {children}
+      </main>
     </div>
   );
 };

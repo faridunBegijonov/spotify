@@ -15,14 +15,17 @@
     "@types/node": "^16.18.41",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
+    "axios": "^1.4.0",
     "concurrently": "^8.2.0",
     "framer-motion": "^10.16.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-media-player": "^0.7.9",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.11",
     "typescript": "^4.9.5",
     "use-sound": "^4.0.1",
@@ -56,6 +59,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-slick": "^0.23.10",
     "prettier": "^3.0.2",
     "prettier-plugin-tailwindcss": "^0.5.3",
     "tailwindcss": "^3.3.3"

@@ -11,7 +11,7 @@ export const InputComponent: FC<InputType> = ({
   callbackFn,
 }: InputType) => {
   return (
-    <div className="w-full relative ">
+    <div className="relative">
       <input
         className={`${style} w-full pl-10 p-2 rounded-[4px] bg-[#242424FF]  border-none outline-none`}
         type="text"

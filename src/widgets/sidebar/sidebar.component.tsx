@@ -8,7 +8,7 @@ import { InputComponent, SelectComponent } from "../../shared/ui";
 export const Sidebar: FC = () => {
   return (
     <div className="w-[30%] border-r-8 pt-4 border-[#000000FF] border-solid bg-[] fixed left-0 top-0 bottom-0 h-screen">
-      <div className="border-b-8  border-[#000000FF] border-solid">
+      <div className="border-b-8 p-1  border-[#000000FF] border-solid">
         <NavLink
           className="flex w-full px-8 py-4 mb-4 hover:bg-white/10 transition-colors items-center rounded-[4px]"
           to="/"
@@ -31,7 +31,7 @@ export const Sidebar: FC = () => {
           <h2>Моя медиатека</h2>
         </div>
         <div className="flex mt-4 items-center justify-between">
-          <InputComponent style="w-[200px]" callbackFn={() => null} />
+          <InputComponent style="w-[190px]" callbackFn={() => null} />
           <SelectComponent
             callbackFn={() => null}
             title="Фильтр"

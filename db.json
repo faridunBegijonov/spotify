@@ -1,5 +1,67 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "music": [
+    {
+      "id": 1,
+      "title": "Don Omar - Danza Kuduro ft. Lucenzo",
+      "img": "/assest/1.jpeg",
+      "audio": "/assest/1.mp3",
+      "description": "Don Omar - Danza Kuduro ft. Lucenzo",
+      "category": "Рэп",
+      "likes": 540
+    },
+    {
+      "id": 2,
+      "title": "Arman Tovmasyan & Samira - AKA AKA",
+      "img": "/assest/2.jpeg",
+      "audio": "/assest/2.mp3",
+      "description": "Arman Tovmasyan & Samira - AKA AKA",
+      "category": "Русский",
+      "likes": 850
+    },
+    {
+      "id": 3,
+      "title": "BRIANNA - Lost in Istanbul (by Monoir) [Official Video]",
+      "img": "/assest/3.jpeg",
+      "audio": "/assest/3.mp3",
+      "description": "BRIANNA - Lost in Istanbul (by Monoir) [Official Video]",
+      "category": "Поп",
+      "likes": 654
+    },
+    {
+      "id": 4,
+      "title": "Floriani - E di qe don",
+      "img": "/assest/4.jpeg",
+      "audio": "/assest/4.mp3",
+      "description": "Floriani - E di qe don",
+      "category": "Рэп",
+      "likes": 798
+    },
+    {
+      "id": 5,
+      "title": "Tamiga & 2Bad - Summer In Dubai | Official Video Extended",
+      "img": "/assest/5.jpeg",
+      "audio": "/assest/5.mp3",
+      "description": "Tamiga & 2Bad - Summer In Dubai | Official Video Extended",
+      "category": "Арабские минусы",
+      "likes": 1088
+    },
+    {
+      "id": 6,
+      "title": "Akcent feat. Lidia Buble & DDY Nunes - Kamelia (Official Video)",
+      "img": "/assest/6.jpeg",
+      "audio": "/assest/6.mp3",
+      "description": "Akcent feat. Lidia Buble & DDY Nunes - Kamelia (Official Video)",
+      "category": "Американский",
+      "likes": 502
+    },
+    {
+      "id": 7,
+      "title": "Claydee - Alena (Official Video)",
+      "img": "/assest/7.jpeg",
+      "audio": "/assest/7.mp3",
+      "description": "Claydee - Alena (Official Video)",
+      "category": "Американский",
+      "likes": 502
+    }
+  ]
 }
