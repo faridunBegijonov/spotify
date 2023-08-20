@@ -20,6 +20,7 @@
     "framer-motion": "^10.16.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-h5-audio-player": "^3.8.6",
     "react-media-player": "^0.7.9",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.15.0",

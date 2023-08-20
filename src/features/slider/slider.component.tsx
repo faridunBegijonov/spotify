@@ -23,16 +23,27 @@ export const SliderComponent: FC<SliderType> = ({
       <h1 className="mb-4 font-bold text-2xl">
         {!isLoading ? title : <SkeletonComponent height={18} width={250} />}
       </h1>
-      <Slider {...settings}>
-        {!isLoading
-          ? musics?.map((music: IMusic) => {
+      {musics.length <= 4 ? <div className="flex items-center">
+        {
+          musics?.map((music: IMusic) => {
+            return (
+              <div key={music.id} className="pr-2 w-[216px]">
+                <CardComponent {...music} />
+              </div>
+            );
+          })
+        }
+      </div> :
+        <Slider {...settings}>
+          {!isLoading
+            ? musics?.map((music: IMusic) => {
               return (
                 <div key={music.id} className="pr-2">
                   <CardComponent {...music} />
                 </div>
               );
             })
-          : Array(10)
+            : Array(10)
               .fill("")
               .map((skeleton) => {
                 return (
@@ -41,7 +52,7 @@ export const SliderComponent: FC<SliderType> = ({
                   </div>
                 );
               })}
-      </Slider>
+        </Slider>}
     </div>
   );
 };

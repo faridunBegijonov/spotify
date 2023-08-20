@@ -6,8 +6,8 @@ export const settings = {
   infinite: false,
   speed: 1000,
   slidesToShow: width >= 600 ? 4.5 : 1.5,
-  nextArrow: <ArrowForwardIosIcon />,
-  prevArrow: <ArrowBackIosIcon />,
+  nextArrow: <ArrowForwardIosIcon sx={{ fontSize: "15px" }} />,
+  prevArrow: <ArrowBackIosIcon sx={{ fontSize: "15px" }} />,
   slidesToScroll: width >= 600 ? 4 : 1,
   swipe: width >= 600 ? false : true,
 };

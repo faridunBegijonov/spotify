@@ -21,4 +21,4 @@ Runs server [json-server](http://localhost:4200/) for more information.
 - [Json-server](https://github.com/typicode/json-server)
 - [Tailwind Css](https://tailwindcss.com/docs/guides/create-react-app)
 
- #### To learn React, check out the [React documentation](https://reactjs.org/).
+#### To learn React, check out the [React documentation](https://reactjs.org/).

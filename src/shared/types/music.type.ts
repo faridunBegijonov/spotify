@@ -6,4 +6,5 @@ export interface IMusic {
   description: string;
   category: string;
   likes: number;
+  actres: string
 }

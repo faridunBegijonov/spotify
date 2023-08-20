@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { RouterProvider } from "react-router-dom";
 import { router, theme } from "./app/index";
 import { ThemeProvider } from "@mui/material";
+import "react-h5-audio-player/lib/styles.css";
 
 const queryClient = new QueryClient();
 

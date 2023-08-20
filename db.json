@@ -7,7 +7,8 @@
       "audio": "/assest/1.mp3",
       "description": "Don Omar - Danza Kuduro ft. Lucenzo",
       "category": "Рэп",
-      "likes": 540
+      "likes": 540,
+      "actres": "Don Omar"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "audio": "/assest/2.mp3",
       "description": "Arman Tovmasyan & Samira - AKA AKA",
       "category": "Русский",
-      "likes": 850
+      "likes": 850,
+      "actres": "Arman Tovmasyan"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "audio": "/assest/3.mp3",
       "description": "BRIANNA - Lost in Istanbul (by Monoir) [Official Video]",
       "category": "Поп",
-      "likes": 654
+      "likes": 654,
+      "actres": "BRIANNA"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "audio": "/assest/4.mp3",
       "description": "Floriani - E di qe don",
       "category": "Рэп",
-      "likes": 798
+      "likes": 798,
+      "actres": "Floriani"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "audio": "/assest/5.mp3",
       "description": "Tamiga & 2Bad - Summer In Dubai | Official Video Extended",
       "category": "Арабские минусы",
-      "likes": 1088
+      "likes": 1088,
+      "actres": "Tamiga"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "audio": "/assest/6.mp3",
       "description": "Akcent feat. Lidia Buble & DDY Nunes - Kamelia (Official Video)",
       "category": "Американский",
-      "likes": 502
+      "likes": 502,
+      "actres": "Akcent"
     },
     {
       "id": 7,
@@ -61,7 +67,48 @@
       "audio": "/assest/7.mp3",
       "description": "Claydee - Alena (Official Video)",
       "category": "Американский",
-      "likes": 502
+      "likes": 502,
+      "actres": "Claydee"
+    },
+    {
+      "id": 8,
+      "title": "Alan Walker - Alone x Darkside x Sorry x On My Way x Alone pt 2 x Ignite Mashup Remix || TREJEX",
+      "img": "/assest/8.jpeg",
+      "audio": "/assest/8.mp3",
+      "description": "Alan Walker - Alone x Darkside x Sorry x On My Way x Alone pt 2 x Ignite Mashup Remix || TREJEX",
+      "category": "Alan Walker",
+      "likes": 1080,
+      "actres": "Alan Walker"
+    },
+    {
+      "id": 9,
+      "title": "Donique - Badman by Donique mus Badman",
+      "img": "/assest/9.jpeg",
+      "audio": "/assest/9.mp3",
+      "description": "Donique - Badman by Donique mus Badman",
+      "category": "Поп",
+      "likes": 1080,
+      "actres": "Donique"
+    },
+    {
+      "id": 10,
+      "title": "Otilia - Diamante (Official Music)",
+      "img": "/assest/10.jpeg",
+      "audio": "/assest/10.mp3",
+      "description": "Otilia - Diamante (Official Music)",
+      "category": "Поп",
+      "likes": 1180,
+      "actres": "Otilia"
+    },
+    {
+      "id": 11,
+      "title": "Akcent feat. Sandra N - Amor Gitana (Official Music)",
+      "img": "/assest/11.jpeg",
+      "audio": "/assest/11.mp3",
+      "description": "Akcent feat. Sandra N - Amor Gitana (Official Music)",
+      "category": "Поп",
+      "likes": 2014,
+      "actres": "Akcent"
     }
   ]
 }
